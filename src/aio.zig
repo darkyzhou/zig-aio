@@ -229,6 +229,8 @@ pub const CloseSocket = ops.CloseSocket;
 pub const NotifyEventSource = ops.NotifyEventSource;
 pub const WaitEventSource = ops.WaitEventSource;
 pub const CloseEventSource = ops.CloseEventSource;
+pub const RecvMsg = ops.RecvMsg;
+pub const SendMsg = ops.SendMsg;
 
 test "shared outputs" {
     var tmp = std.testing.tmpDir(.{});
